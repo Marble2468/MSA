@@ -84,6 +84,8 @@ spring:
         error:
             include-message: always
 
+spring.jackson.mapper.allow-final-fields-as-mutators: true
+
 ---
 spring:
     config:
